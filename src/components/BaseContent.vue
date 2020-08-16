@@ -30,7 +30,8 @@ export default {};
   .content__desc {
     width: 100%;
     // font-size: 1.2rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    line-height: 1.5;
   }
 }
 </style>
