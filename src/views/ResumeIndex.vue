@@ -8,7 +8,7 @@
       <div class="header-box">
         <div class="add-info">
           <h3 class="add-info__title">
-            Contact
+            Contact.
           </h3>
           <ul class="contact-list">
             <li>
@@ -42,7 +42,49 @@
 
     <base-content>
       <template slot="content-title">Skill.</template>
-      <template slot="content-desc"> </template>
+      <template slot="content-desc">
+        <div class="skill-box">
+          <div class="skill__title">Front-End</div>
+          <div class="skill__desc">
+            <ul>
+              <li>JavaScript(ES6+)</li>
+              <li>Vue.js</li>
+              <li>NativeScript-Vue</li>
+              <li>HTML5, CSS3, SCSS</li>
+              <li>Webpack</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill__title">Back-End</div>
+          <div class="skill__desc">
+            <ul>
+              <li>Python, Django REST framework</li>
+              <li>PHP</li>
+              <li>Java, Spring Boot, MyBatis</li>
+              <li>Node.js, Express.js</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill__title">Database</div>
+          <div class="skill__desc">
+            <ul>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill__title">DevOps</div>
+          <div class="skill__desc">
+            <ul>
+              <li>AWS RDS, S3, CloudFont, Cloudwatch, Route53, EC@</li>
+              <li>Docker</li>
+              <li>Travis CI</li>
+            </ul>
+          </div>
+        </div>
+      </template>
     </base-content>
   </div>
 </template>
@@ -90,6 +132,21 @@ export default {
           font-size: 1.5rem;
         }
       }
+    }
+  }
+
+  .skill-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 0 2rem 0;
+    .skill__title {
+      width: 35%;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    .skill__desc {
+      width: 65%;
     }
   }
 }
