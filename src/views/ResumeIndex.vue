@@ -286,8 +286,8 @@
                   <li>UI 리뉴얼</li>
                 </ul>
                 <p class="tech">
-                  JavaScript, PHP, Python(Django), HTML, CSS, Webpack, MySQL, S3, Nginx, Apache, EC2, Docker, Travis CI,
-                  Onsen UI
+                  JavaScript, jQuery, PHP, Python(Django), HTML, CSS, Webpack, MySQL, S3, Nginx, Apache, EC2, Docker,
+                  Travis CI, Onsen UI
                 </p>
               </div>
             </div>
@@ -315,7 +315,7 @@
                   <li>위치, 시간에 따른 동적 UI 구현</li>
                   <li>초기 사용자앱 화면 기획</li>
                 </ul>
-                <p class="tech">JavaScript, Python(Django), PHP</p>
+                <p class="tech">JavaScript, HTML, CSS, jQuery, Java, Spring Boot, MyBatis, MySQL</p>
               </div>
             </div>
           </div>
@@ -342,7 +342,7 @@
                   <li>워드프레스 기반 신규 서비스 개발</li>
                   <li>마케팅 목적의 화면 UI 애니메이션 개발</li>
                 </ul>
-                <p class="tech">PHP, HTML, CSS</p>
+                <p class="tech">PHP, HTML, CSS, jQuery, JavaScript</p>
               </div>
             </div>
           </div>
