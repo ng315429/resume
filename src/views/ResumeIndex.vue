@@ -323,10 +323,10 @@
 
         <div class="experience">
           <div class="experience__title">
-            <h3 class="title">디오네르</h3>
+            <h3 class="title">디오네르(크라운구스)</h3>
             <div class="description">
               <p class="job">Front-End, Publishing</p>
-              <p class="period">2018.02 ~ 2018.10 (9개월)</p>
+              <p class="period">2016.12 ~ 2018.01 (14개월)</p>
             </div>
           </div>
 
