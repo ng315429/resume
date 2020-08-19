@@ -351,6 +351,37 @@
     </base-content>
 
     <base-content>
+      <template slot="content-title">Freelancer.</template>
+      <template slot="content-desc">
+        <div class="freelancer">
+          <div class="freelancer__title">
+            <h3 class="title">가이빙</h3>
+            <div class="description">
+              <p class="job">Front-End</p>
+            </div>
+          </div>
+
+          <div class="freelancer-box">
+            <div class="freelancer__desc">
+              <h4 class="title">가이빙 서비스 어드민 페이지</h4>
+              <p class="period">2020.06 ~ 2020.06</p>
+              <div class="description">
+                <p class="summary">가이빙 서비스 어드민 페이지 개발</p>
+                <ul>
+                  <li>전체 화면 개발</li>
+                  <li>많은 동적 필터를 Promise All 처리 및 모듈화로 성능 개선</li>
+                  <li>Firebase Auth 연동으로 기능 권한 처리</li>
+                  <li>AWS S3 Deploy 환경 구축</li>
+                </ul>
+                <p class="tech">Vue.js, Element UI, JavaScript, Firebase Auth</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+    </base-content>
+
+    <base-content>
       <template slot="content-title">Education.</template>
       <template slot="content-desc">
         2011.03 ~ 2017.08 서경대학교 컴퓨터과학과
@@ -506,6 +537,99 @@ export default {
       flex-direction: column;
 
       .experience__desc {
+        margin: 0 0 3rem 0;
+
+        .title {
+          font-size: 1.3rem;
+          font-weight: 500;
+        }
+        .period {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+        .description {
+          margin: 0.5rem 0;
+          line-height: 1.2;
+          .summary {
+            margin: 1rem 0;
+            font-size: 1rem;
+            font-weight: 400;
+          }
+
+          ul {
+            text-indent: 1rem;
+            font-size: 3rem;
+            list-style-position: inside;
+            li {
+              padding: 0 0 0 1.5rem;
+              text-indent: -1.5rem;
+              font-size: 1rem;
+              line-height: 1.5;
+            }
+          }
+          .tech {
+            font-size: 1rem;
+            margin: 1rem 0;
+          }
+        }
+      }
+    }
+  }
+
+  .freelancer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 1rem 0;
+    margin: 0 0 2rem 0;
+    border-bottom: 1px solid #eee;
+
+    @include mobile {
+      display: block;
+      .freelancer__title {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 2rem;
+      }
+      .freelancer-box {
+        width: 85%;
+        margin: 0 auto;
+        text-align: left;
+      }
+    }
+    @include desktop {
+      display: flex;
+      .freelancer__title {
+        width: 35%;
+        text-align: left;
+        margin: 0;
+      }
+      .freelancer-box {
+        width: 65%;
+        margin: 0;
+        text-align: left;
+      }
+    }
+
+    .freelancer__title {
+      .title {
+        font-size: 1.6rem;
+        font-weight: 700;
+      }
+      .description {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+        line-height: 1.2;
+        .period {
+          font-weight: 300;
+        }
+      }
+    }
+    .freelancer-box {
+      display: flex;
+      flex-direction: column;
+
+      .freelancer__desc {
         margin: 0 0 3rem 0;
 
         .title {
