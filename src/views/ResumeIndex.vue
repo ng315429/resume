@@ -241,7 +241,7 @@
               </div>
             </div>
 
-            <div class="experience__desc">
+            <!-- <div class="experience__desc">
               <h4 class="title">롯데카드 SSO 연동</h4>
               <p class="period">2019.04 ~ 2019.05</p>
               <div class="description">
@@ -255,7 +255,7 @@
                 </ul>
                 <p class="tech">JavaScript, PHP, Python(Django)</p>
               </div>
-            </div>
+            </div> -->
 
             <div class="experience__desc">
               <h4 class="title">라스트오더 프론트/백엔드 개발 및 유지보수</h4>
