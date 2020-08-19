@@ -9,6 +9,10 @@ const routes = [
     name: 'index',
     component: () => import('@/views/ResumeIndex.vue'),
   },
+  {
+    path: '*',
+    component: () => import('@/views/NotFound.vue'),
+  },
 ];
 
 const router = new VueRouter({
