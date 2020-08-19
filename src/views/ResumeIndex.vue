@@ -369,7 +369,7 @@
                 <p class="summary">가이빙 서비스 어드민 페이지 개발</p>
                 <ul>
                   <li>전체 화면 개발</li>
-                  <li>많은 동적 필터를 Promise All 처리 및 모듈화로 성능 개선</li>
+                  <li>많은 동적 필터(API CALL)를 Promise All 처리 및 모듈화로 성능 개선</li>
                   <li>Firebase Auth 연동으로 기능 권한 처리</li>
                   <li>AWS S3 Deploy 환경 구축</li>
                 </ul>
