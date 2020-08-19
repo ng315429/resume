@@ -180,7 +180,7 @@
                     기존 모든 매장 위치를 마커로 인한 속도저하와 잦은 호출 문제를 영역범위, 드래그/줌 제어 등을 통해
                     속도 및 사용성 개선
                   </li>
-                  <li>Redis 연동 후 데이터 가공 API 개발</li>
+                  <li>Redis를 이용한 좌표 클러스터링 기능 개발</li>
                   <li>매장, 제휴사, 판매가능여부, 동일좌표 등 조건에 따라 UI 개발</li>
                 </ul>
                 <p class="tech">JavaScript, Kakao Map, Python(Django), HTML, CSS, Onsen Framework</p>
