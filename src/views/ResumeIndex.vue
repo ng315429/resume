@@ -378,7 +378,12 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/css/_mixin.scss';
 .container {
-  width: 100%;
+  @include mobile {
+    width: 90%;
+  }
+  @include desktop {
+    width: 100%;
+  }
   max-width: 50rem;
   margin: 5rem auto;
 
@@ -441,6 +446,7 @@ export default {
           line-height: 1.5;
           padding: 0 0 0 1.5rem;
           text-indent: -1.5rem;
+          text-align: left;
         }
       }
     }
@@ -454,8 +460,34 @@ export default {
     margin: 0 0 2rem 0;
     border-bottom: 1px solid #eee;
 
+    @include mobile {
+      display: block;
+      .experience__title {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 2rem;
+      }
+      .experience-box {
+        width: 85%;
+        margin: 0 auto;
+        text-align: left;
+      }
+    }
+    @include desktop {
+      display: flex;
+      .experience__title {
+        width: 35%;
+        text-align: left;
+        margin: 0;
+      }
+      .experience-box {
+        width: 65%;
+        margin: 0;
+        text-align: left;
+      }
+    }
+
     .experience__title {
-      width: 35%;
       .title {
         font-size: 1.6rem;
         font-weight: 700;
@@ -472,7 +504,6 @@ export default {
     .experience-box {
       display: flex;
       flex-direction: column;
-      width: 65%;
 
       .experience__desc {
         margin: 0 0 3rem 0;
