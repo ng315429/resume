@@ -113,12 +113,10 @@
               <div class="description">
                 <p class="summary">레거시 결제 API 이전 및 PG사 변경</p>
                 <ul>
-                  <li>PG사 변경(아임포트->이니시스)</li>
-                  <li>기존 PHP로 작성된 결제API를 Python(Django)로 이전/개발</li>
-                  <li>웹뷰기반 결제 페이지 요청에서 웹-앱 통신을 통한 결제 방식으로 변경</li>
                   <li>운영, 어드민, 주문중개로 분리된 결제 기능을 통합 및 모듈화</li>
                   <li>쿠폰, 포인트, 상품 등 검증 로직 개선</li>
                   <li>결제전/후 주문, 상품 등 검증 실패에 따른 결제취소 로직 구현</li>
+                  <li>상품 부분취소 로직 구현</li>
                   <li>결제 데이터 구조 설계</li>
                 </ul>
                 <p class="tech">JavaScript, Python(Django), PHP</p>
@@ -131,7 +129,6 @@
               <div class="description">
                 <p class="summary">성인인증이 필요한 상품들 유입으로 인해 성인인증 시스템 도입</p>
                 <ul>
-                  <li>웹-앱 통신 방식</li>
                   <li>휴대폰 본인인증(KG모빌리언스) API 연동</li>
                   <li>연동 후 성인인증 여부 및 인증 처리 절차 API 개발</li>
                   <li>성인인증 상품 구분 UI 개발</li>
@@ -146,8 +143,7 @@
               <div class="description">
                 <p class="summary">일반계정, 소셜계정 통합 및 로그인/회원가입 절차 개편</p>
                 <ul>
-                  <li>웹기반에서 웹-앱 통신으로 로그인 변경</li>
-                  <li>가입시 등록된 휴대전화번호 기준으로 회원통합/연동</li>
+                  <li>휴대전화번호 기준으로 회원통합/연동</li>
                   <li>소셜 가입시 회원여부, 인증 및 가입 절차 API 개발</li>
                   <li>소셜 로그인시 일반계정 연동 API 개발</li>
                   <li>1차 PHP로 리뉴얼, 2차 Python(Django)로 리뉴얼</li>
@@ -163,7 +159,7 @@
                 <p class="summary">편의점(세븐일레븐) 상품 판매 서비스 런칭</p>
                 <ul>
                   <li>세븐일레븐 전용 화면 개발</li>
-                  <li>기존 주문, 결제 로직에 제휴 로직 추가 개발</li>
+                  <li>기존 주문, 결제 로직 개선</li>
                   <li>페이지내 카테고리 선택 시 스크롤 복원, 이미지 레이지 로딩 등 사용성 개선</li>
                 </ul>
                 <p class="tech">PHP, JavaScript, HTML, CSS, Onsen Framework</p>
@@ -266,25 +262,25 @@
                 </p>
                 <ul>
                   <li>기본적인 유지보수 및 운영 비롯해 비즈니스 요구에 맞는 다양한 신기능 개발</li>
-                  <li>기존 PHP로 작성된 레거시API를 Django로 부분 이전 작업</li>
-                  <li>PHP 템플릿(template_) 제거 작업</li>
+                  <li>기존 PHP로 작성된 레거시를 Django로 부분 이전 작업</li>
+                  <!-- <li>PHP 템플릿(template_) 제거 작업</li> -->
                   <li>리플로우, 리페인트 최소화로 렌더링 개선</li>
                   <li>스켈레톤 UI, 이미지 로딩 등을 통한 UX 개선</li>
                   <li>훅을 화면에 맞게 구분하여 API 호출 최소화 및 사용성 개선</li>
                   <li>메인 화면 로드시 많은 API 호출을 통합, 최소화하여 속도 개선</li>
                   <li>배송, 포인트 정책 추가로 인한 화면 및 주문, 결제 로직 개발</li>
-                  <li>기존 의존성 높은 데이터의 관계를 최소화하여 유지보수성 증가</li>
+                  <!-- <li>기존 의존성 높은 데이터의 관계를 최소화하여 유지보수성 증가</li> -->
                   <li>마케팅, 이벤트에 필요한 리소스 통합 관리 화면/기능 개발</li>
-                  <li>제휴사별 화면/기능 개발</li>
+                  <!-- <li>제휴사별 화면/기능 개발</li> -->
                   <li>다양한 브라우저,앱 환경 대응</li>
-                  <li>전반적인 Web, API, APP 배포 및 관리</li>
+                  <!-- <li>전반적인 Web, API, APP 배포 및 관리</li> -->
                   <li>RDS read, master 구분 사용</li>
                   <li>
                     Hash 및 history를 제어하여 브라우저 뒤로가기, 외부 공유 등의 상황에서 사용자가 바라보고 있던 화면이
                     유지되도록 개발
                   </li>
                   <li>URL Query String를 사용하여 라우터 기능 개발 및 마케팅 목적의 페이지 개발</li>
-                  <li>UI 리뉴얼</li>
+                  <!-- <li>UI 리뉴얼</li> -->
                 </ul>
                 <p class="tech">
                   JavaScript, jQuery, PHP, Python(Django), HTML, CSS, Webpack, MySQL, S3, Nginx, Apache, EC2, Docker,
@@ -521,7 +517,7 @@ export default {
 
     .experience__title {
       .title {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: 700;
       }
       .description {
@@ -541,7 +537,7 @@ export default {
         margin: 0 0 3rem 0;
 
         .title {
-          font-size: 1.3rem;
+          font-size: 1.5rem;
           font-weight: 500;
         }
         .period {
@@ -614,7 +610,7 @@ export default {
 
     .freelancer__title {
       .title {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: 700;
       }
       .description {
@@ -634,7 +630,7 @@ export default {
         margin: 0 0 3rem 0;
 
         .title {
-          font-size: 1.3rem;
+          font-size: 1.5rem;
           font-weight: 500;
         }
         .period {
