@@ -86,8 +86,7 @@
           <div class="skill__desc">
             <ul>
               <li>AWS(RDS, S3, CloudFont, Cloudwatch, Route53, EC2)</li>
-              <li>Docker</li>
-              <li>Travis CI</li>
+              <li>Docker, Travis CI</li>
             </ul>
           </div>
         </div>
@@ -432,6 +431,10 @@ export default {
     .header-box {
       .header__title {
         margin: 0.4rem 0;
+        font-size: 1.8rem;
+      }
+      .header__subtitle {
+        font-size: 1rem;
       }
       .add-info {
         display: flex;
@@ -449,7 +452,7 @@ export default {
         .add-info__title {
           color: $main-color;
           margin: 0.5rem 0;
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
       }
     }
@@ -459,10 +462,10 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0 0 1.8rem 0;
+    margin: 0 0 1.6rem 0;
     .skill__title {
       width: 32%;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       font-weight: 700;
     }
     .skill__desc {
@@ -517,7 +520,7 @@ export default {
 
     .experience__title {
       .title {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         font-weight: 700;
       }
       .description {
@@ -537,7 +540,7 @@ export default {
         margin: 0 0 3rem 0;
 
         .title {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           font-weight: 500;
         }
         .period {
@@ -555,7 +558,6 @@ export default {
 
           ul {
             text-indent: 1rem;
-            font-size: 3rem;
             list-style-position: inside;
             li {
               padding: 0 0 0 1.5rem;
@@ -597,12 +599,12 @@ export default {
     @include desktop {
       display: flex;
       .freelancer__title {
-        width: 35%;
+        width: 32%;
         text-align: left;
         margin: 0;
       }
       .freelancer-box {
-        width: 65%;
+        width: 68%;
         margin: 0;
         text-align: left;
       }
@@ -610,7 +612,7 @@ export default {
 
     .freelancer__title {
       .title {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         font-weight: 700;
       }
       .description {
@@ -630,7 +632,7 @@ export default {
         margin: 0 0 3rem 0;
 
         .title {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           font-weight: 500;
         }
         .period {
@@ -648,7 +650,6 @@ export default {
 
           ul {
             text-indent: 1rem;
-            font-size: 3rem;
             list-style-position: inside;
             li {
               padding: 0 0 0 1.5rem;
