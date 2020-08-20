@@ -461,12 +461,12 @@ export default {
     align-items: flex-start;
     margin: 0 0 1.8rem 0;
     .skill__title {
-      width: 35%;
+      width: 32%;
       font-size: 1.3rem;
       font-weight: 700;
     }
     .skill__desc {
-      width: 65%;
+      width: 68%;
       ul {
         list-style-position: inside;
         text-indent: 1rem;
@@ -504,12 +504,12 @@ export default {
     @include desktop {
       display: flex;
       .experience__title {
-        width: 35%;
+        width: 32%;
         text-align: left;
         margin: 0;
       }
       .experience-box {
-        width: 65%;
+        width: 68%;
         margin: 0;
         text-align: left;
       }
