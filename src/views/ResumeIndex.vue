@@ -29,8 +29,8 @@
     </div>
 
     <base-content>
-      <template slot="content-title">Introduce.</template>
-      <template slot="content-desc">
+      <template v-slot:content-title>Introduce.</template>
+      <template v-slot:content-desc>
         <p>
           4년차 프론트 개발자로 모빌리티, 커머스 등의 스타트업에서 웹과 앱 서비스를 개발/배포/운영 경험이 있습니다.<br />
           주로 웹 기반 개발을 담당했으며 팀내 필요에 따라 백엔드 개발 역할도 겸하였습니다.<br />
@@ -40,7 +40,6 @@
           혼자가 아닌 함께 이뤄낼 수 있다고 생각하기에 다양한 구성원들과 적극적으로 협업해왔습니다. <br />
           <br />
           깔끔한 인터페이스, 애니메이션 구현하는 것을 즐겨합니다.<br />
-          확장성과 유지보수성이 높은 프론트 아키텍쳐와 컴포넌트 디자인 패턴에 대해 항상 고민하고 있습니다.<br />
           <br />
           주도적으로 개발 업무를 진행할 수 있는 환경을 선호합니다.
         </p>
