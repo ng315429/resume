@@ -255,12 +255,11 @@
               <h4 class="title">라스트오더 프론트/백엔드 개발 및 유지보수</h4>
               <p class="period">2019.02 ~ 2020.06</p>
               <div class="description">
-                <p class="summary">
-                  제휴사 롯데카드 회원과의 통합인증 기능 제공
-                </p>
+                <p class="summary"></p>
                 <ul>
                   <li>기본적인 유지보수 및 운영 비롯해 비즈니스 요구에 맞는 다양한 화면/신기능 개발</li>
                   <!-- <li>PHP 템플릿(template_) 제거 작업</li> -->
+                  <li>제휴사별 화면/기능 개발</li>
                   <li>리플로우, 리페인트 최소화로 렌더링 개선</li>
                   <li>스켈레톤 UI, 이미지 로딩 등을 통한 UX 개선</li>
                   <li>훅을 화면에 맞게 구분하여 API 호출 최소화 및 사용성 개선</li>
@@ -276,7 +275,6 @@
                   <li>다양한 브라우저,앱 환경 대응</li>
                   <li>기존 PHP로 작성된 레거시를 Django로 부분 이전 작업</li>
                   <li>RDS read, master 구분 사용</li>
-                  <!-- <li>제휴사별 화면/기능 개발</li> -->
                   <!-- <li>전반적인 Web, API, APP 배포 및 관리</li> -->
                   <!-- <li>UI 리뉴얼</li> -->
                 </ul>
