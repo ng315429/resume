@@ -16,7 +16,7 @@ export default {};
 <style lang="scss" scoped>
 .content {
   width: 100%;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
   text-align: left;
 
   .content__title {

@@ -517,10 +517,10 @@ export default {
       flex-direction: column;
 
       .experience__desc {
-        margin: 0 0 3rem 0;
+        margin: 0 0 2rem 0;
 
         .title {
-          font-size: 1.3rem;
+          font-size: 1.5rem;
           font-weight: 500;
         }
         .period {
