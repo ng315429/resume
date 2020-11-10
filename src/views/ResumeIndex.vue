@@ -174,6 +174,7 @@
                   </li>
                   <li>매장, 제휴사, 판매가능여부, 동일좌표 등 여러 조건에 따른 UI 개발</li>
                   <li>Redis를 사용하여 좌표 클러스터링 기능 개발</li>
+                  <li>위치기반 API 개발</li>
                 </ul>
                 <p class="tech">JavaScript, Kakao Map, Python(Django), HTML, CSS</p>
               </div>
