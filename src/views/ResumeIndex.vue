@@ -201,7 +201,7 @@
 
             <div class="experience__desc">
               <h4 class="title">영업자용 앱 런칭</h4>
-              <p class="period">2019.08 ~ 2020.12</p>
+              <p class="period">2019.10 ~ 2019.12</p>
               <div class="description">
                 <p class="summary">
                   영업자분들이 쉽게 매장을 등록할 수 있고 관리할 수 있는 영업 전용앱
