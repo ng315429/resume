@@ -539,12 +539,12 @@ export default {
     @include desktop {
       display: flex;
       .experience__title {
-        width: 32%;
+        width: 35%;
         text-align: left;
         margin: 0;
       }
       .experience-box {
-        width: 68%;
+        width: 65%;
         margin: 0;
         text-align: left;
       }
@@ -552,7 +552,7 @@ export default {
 
     .experience__title {
       .title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 700;
       }
       .description {
@@ -572,7 +572,7 @@ export default {
         margin: 0 0 2rem 0;
 
         .title {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
           font-weight: 500;
         }
         .period {
