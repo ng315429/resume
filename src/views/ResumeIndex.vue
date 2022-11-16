@@ -520,39 +520,6 @@
     </base-content>
 
     <base-content>
-      <template slot="content-title">Freelancer.</template>
-      <template slot="content-desc">
-        <div class="freelancer">
-          <div class="freelancer__title">
-            <h3 class="title">가이빙</h3>
-            <div class="description">
-              <p class="job">Front-End</p>
-            </div>
-          </div>
-
-          <div class="freelancer-box">
-            <div class="freelancer__desc">
-              <h4 class="title">가이빙 서비스 어드민 페이지</h4>
-              <p class="period">2020.06 ~ 2020.06</p>
-              <div class="description">
-                <p class="summary">가이빙 서비스 어드민 페이지 개발</p>
-                <ul>
-                  <li>전체 화면 개발</li>
-                  <li>연쇄적인 동적 필터 처리</li>
-                  <li>Firebase Auth 연동으로 기능 권한 처리</li>
-                  <li>AWS Deploy 환경 구축</li>
-                </ul>
-                <p class="tech">
-                  Vue.js, Element UI, JavaScript, Firebase Auth
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </template>
-    </base-content>
-
-    <base-content>
       <template slot="content-title">Education.</template>
       <template slot="content-desc">
         2011.03 ~ 2017.08 서경대학교 컴퓨터과학과
