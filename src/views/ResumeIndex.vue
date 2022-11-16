@@ -134,7 +134,7 @@
                   <a href="https://ably.team/" target="_blank">페이지</a>
                 </p>
                 <ul>
-                  <li>Headless CMS인 prismic, 리쿠르팅 시스템인 Greenhouse을 활용</li>
+                  <li>Headless CMS인 prismic, 리쿠르팅 시스템인 Greenhouse 활용</li>
                   <li>GraphQL를 활용하여 Prismic, Greenhouse과 데이터 통신 구현</li>
                   <li>Next.js와 Prismic의 meta를 활용하여 SEO 처리</li>
                   <li>prismic의 정해진 형식 UI 커스텀</li>
@@ -152,12 +152,12 @@
                 </p>
                 <ul>
                   <li>
-                    서버와 타입별 컴포넌트를 Server Driven UI(SDUI)방식과 유사하게 구현
+                    서버와 타입별 컴포넌트를 Server-Driven UI(SDUI)방식과 유사하게 구현
                   </li>
                   <li>
-                    각 타입별 컴포넌트(프로모션용 디자인시스템)을 개발
+                    각 타입별 컴포넌트(프로모션용 디자인시스템)를 개발
                   </li>
-                  <li>등록된 화면을 json형식으로 웹뷰-서버-어드민 통신</li>
+                  <li>등록된 프로모션을 json형식으로 웹뷰-서버-어드민 통신</li>
                   <li>Vue, React환경에서 렌더방식 각각 구현</li>
                 </ul>
               </div>
@@ -167,13 +167,13 @@
               <h4 class="title">클래스 모델</h4>
               <div class="description">
                 <p class="summary">
-                  각 도메인별로 사용되고 있는 모델은 동일하나 비즈니스 로직이 반복적으로 선언되는
+                  각 도메인별로 사용되고 있는 모델들은 동일하나 비즈니스 로직이 반복적으로 선언되는
                   문제점을 개선
                 </p>
                 <ul>
                   <li>
-                    class-transformer 라이브러리를 활용하여 서버에서 받은 plain object를 class
-                    object로 컨버팅
+                    class-transformer 라이브러리를 활용, 서버에서 받은 plain object를 class object로
+                    컨버팅
                   </li>
                   <li>
                     class-object내 해당 도메인 모델이 사용되는 비즈니스 로직을 구현
@@ -186,8 +186,7 @@
               <h4 class="title">통계 이벤트 로거</h4>
               <div class="description">
                 <p class="summary">
-                  웹뷰내에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게
-                  개선<br />
+                  웹뷰내에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게 개선
                 </p>
                 <ul>
                   <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
