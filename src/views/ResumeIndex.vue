@@ -7,9 +7,6 @@
       </div>
       <div class="header-box">
         <div class="add-info">
-          <h3 class="add-info__title">
-            Contact.
-          </h3>
           <ul class="contact-list">
             <li>
               Email :
