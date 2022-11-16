@@ -103,8 +103,7 @@
               <h4 class="title">버티컬 카테고리 확장</h4>
               <div class="description">
                 <p class="summary">
-                  스쿼드에서 버티컬 카테고리 확장에 필요한 가설 검증 및 실험<br />
-                  이에 필요한 웹뷰, 어드민 개발
+                  스쿼드에서 버티컬 카테고리 확장에 필요한 가설 검증 및 실험
                 </p>
                 <ul>
                   <li>Next.js의 SSR, CSR, ISR방식 구현 및 SEO 처리</li>
@@ -115,6 +114,7 @@
                     React-Query로 캐싱, 서버 상태 관리 및 중복 호출 제거, optimistic update 등
                     처리<br />
                   </li>
+                  <li>Recoil을 활용하여 Portal 컴포넌트 상태 관리</li>
                   <li>
                     앱내 웹뷰를 스택 레이어 방식으로 화면 전환 - 데이터 싱크를 로컬스토리지로 구현
                     및 범용 훅 개발
@@ -241,7 +241,7 @@
               </div>
             </div>
 
-            <div class="experience__desc">
+            <!-- <div class="experience__desc">
               <h4 class="title">위치 서비스 개편</h4>
               <div class="description">
                 <p class="summary">
@@ -282,11 +282,10 @@
                   <li>소셜 계정과 일반계정 통합 및 연동</li>
                 </ul>
               </div>
-            </div>
+            </div> -->
 
             <div class="experience__desc">
               <h4 class="title">라스트오더 프론트/백엔드 개발 및 유지보수</h4>
-              <p class="period">2019.02 ~ 2020.06</p>
               <div class="description">
                 <p class="summary">운영 서비스</p>
                 <ul>
