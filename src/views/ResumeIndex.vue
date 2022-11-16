@@ -29,7 +29,7 @@
     </div>
 
     <base-content>
-      <template v-slot:content-title>Introduce.</template>
+      <template v-slot:content-title>소개</template>
       <template v-slot:content-desc>
         <p>
           안녕하세요. 프론트엔드 개발자 송노겸입니다.
@@ -47,7 +47,7 @@
     </base-content>
 
     <base-content>
-      <template slot="content-title">Skill.</template>
+      <template slot="content-title">기술</template>
       <template slot="content-desc">
         <div class="skill-box">
           <div class="skill__title">Front-End</div>
@@ -92,7 +92,7 @@
     </base-content>
 
     <base-content>
-      <template slot="content-title">Experience.</template>
+      <template slot="content-title">경력</template>
       <template slot="content-desc">
         <div class="experience">
           <div class="experience__title">
