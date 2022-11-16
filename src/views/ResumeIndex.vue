@@ -34,8 +34,7 @@
           6년차 프론트엔드 개발자로 모빌리티, 커머스 등의 스타트업에서 웹과 앱 서비스를
           개발/배포/운영한 경험이 있습니다.
           <br />
-          주로 웹/웹뷰, 관리자 페이지 개발을 담당했으며 팀내 필요에 따라 백엔드 개발 역할도
-          겸하였습니다.
+          주로 웹/웹뷰, 관리자 페이지 개발을 담당하였습니다.
           <br />
           평소 구성원들과 기술적인 토론을 선호하며 같이 성장하는 환경을 지향합니다.
           <br />
@@ -52,15 +51,14 @@
             <ul>
               <li>TypeScript</li>
               <li>JavaScript</li>
-              <li>Vue.js, Vuex, Vue-Query</li>
+              <li>Vue.js, Vuex</li>
               <li>React, Recoil, React-Query, GraphQL</li>
               <li>Next.js</li>
               <li>NativeScript-Vue</li>
             </ul>
-            활용해 프론트 환경 및 기능, 화면 등을 구성할 수 있습니다.
           </div>
         </div>
-        <div class="skill-box">
+        <!-- <div class="skill-box">
           <div class="skill__title">Back-End</div>
           <div class="skill__desc">
             <ul>
@@ -84,7 +82,7 @@
               활용해 어플리케이션 레이어, CI 환경 등을 구성할 수 있습니다.
             </ul>
           </div>
-        </div>
+        </div> -->
       </template>
     </base-content>
 
@@ -109,24 +107,22 @@
                   이에 필요한 웹뷰, 어드민 개발
                 </p>
                 <ul>
-                  <li>초기 스펙 문서 작성 및 기획</li>
-                  <li>타 스쿼드 이해관계자와 고려사항 및 정책 논의</li>
-                  <li>MVP로 가설 검증 및 실험, 이터레이션</li>
-                  <li>SSR, CSR, ISR방식으로 구현</li>
+                  <li>Next.js의 SSR, CSR, ISR방식 구현 및 SEO 처리</li>
                   <li>
-                    Vue.js -> React.js환경으로 이전 - 필요한 디자인시스템 및 훅 등을 구현
+                    환경 이전 - 디자인시스템 및 훅 등 구현
                   </li>
                   <li>
-                    앱내 웹뷰를 스택 레이어 방식으로 화면이 전환 - 좋아요 기능 등 이전 화면과 싱크를
-                    맞춰야 하는 로직을 로컬스토리지로 구현
-                    <br />
-                    범용적으로 사용 가능하도록 로직 및 훅 분리
+                    React-Query로 캐싱, 서버 상태 관리 및 중복 호출 제거, optimistic update 등
+                    처리<br />
+                  </li>
+                  <li>
+                    앱내 웹뷰를 스택 레이어 방식으로 화면 전환 - 데이터 싱크를 로컬스토리지로 구현
+                    및 범용 훅 개발
                   </li>
                   <li>
                     통계 이벤트 로깅 구현
                   </li>
                 </ul>
-                <p class="tech">React, Next.js, React-Query, Recoil, Vue.js, TypeScript</p>
               </div>
             </div>
 
@@ -138,17 +134,12 @@
                   <a href="https://ably.team/" target="_blank">페이지</a>
                 </p>
                 <ul>
-                  <li>Headless CMS인 prismic을 활용하여 화면 구현</li>
+                  <li>Headless CMS인 prismic, 리쿠르팅 시스템인 Greenhouse을 활용</li>
+                  <li>GraphQL를 활용하여 Prismic, Greenhouse과 데이터 통신 구현</li>
+                  <li>Next.js와 Prismic의 meta를 활용하여 SEO 처리</li>
                   <li>prismic의 정해진 형식 UI 커스텀</li>
-                  <li>
-                    리쿠르팅 시스템인 Greenhouse과 연동
-                  </li>
-                  <li>
-                    Prismic CMS, Greenhouse 사용 정책 문서화
-                  </li>
-                  <li>Prismic, Greenhouse과 데이터 통신 - GraphQL로 구현</li>
+                  <li>Prismic CMS, Greenhouse 사용 정책 문서화</li>
                 </ul>
-                <p class="tech">React, Next.js, GraphQL, TypeScript, Prismic CMS, Greenhouse</p>
               </div>
             </div>
 
@@ -167,8 +158,8 @@
                     각 타입별 컴포넌트(프로모션용 디자인시스템)을 개발
                   </li>
                   <li>등록된 화면을 json형식으로 웹뷰-서버-어드민 통신</li>
+                  <li>Vue, React환경에서 렌더방식 각각 구현</li>
                 </ul>
-                <p class="tech">Vue.js, TypeScript</p>
               </div>
             </div>
 
@@ -188,7 +179,6 @@
                     class-object내 해당 도메인 모델이 사용되는 비즈니스 로직을 구현
                   </li>
                 </ul>
-                <p class="tech">Vue.js, TypeScript, class-transformer</p>
               </div>
             </div>
 
@@ -201,45 +191,8 @@
                 </p>
                 <ul>
                   <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
+                  <li>이벤트 타입별 추상 클래스로 처리</li>
                 </ul>
-                <p class="tech">TypeScript</p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">리뷰 검수</h4>
-              <div class="description">
-                <p class="summary">
-                  리뷰(텍스트, 포토)를 더 빠르고 쉽게 검수할 수 있도록 개선 검수 정책이 변경에 따른
-                  로직 리팩토링
-                </p>
-                <ul>
-                  <li>
-                    키보드로만 검수를 진행할 수 있도록 다양한 단축키 구현
-                  </li>
-                  <li>
-                    어드민내 리뷰 노출 UI 방식 개선
-                  </li>
-                </ul>
-                <p class="tech">Vue.js, TypeScript</p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">배너</h4>
-              <div class="description">
-                <p class="summary">
-                  가장 사용 빈도가 높지만 각 스쿼드마다 따로 문서로 관리되던 배너 일정을 운영어드민
-                  한 곳에서 관리
-                  <br />
-                  현재/미래 배너를 날짜, 화면 위치/타입, 사이즈, 순서등을 관리
-                </p>
-                <ul>
-                  <li>
-                    앱에서 배너가 필요한 화면 타입에 맞게 등록 및 일정 관리할 수 있는 화면/기능 구현
-                  </li>
-                </ul>
-                <p class="tech">Vue.js, TypeScript</p>
               </div>
             </div>
 
@@ -252,29 +205,10 @@
                 </p>
                 <ul>
                   <li>
-                    웹뷰/앱에서 사용되는 앰플리튜드, 파이어베이스, 브레이즈등의 실험,A/B테스트 관련
-                    이벤트 및 파라미터를 등록, 관리할 수 있도록 화면/기능 구현
+                    웹뷰/앱에서 사용되는 앰플리튜드, 파이어베이스, 브레이즈 등의 통계 이벤트를
+                    관리할 수 있는 화면/기능 개발
                   </li>
                 </ul>
-                <p class="tech">Vue.js, TypeScript</p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">어드민 관리</h4>
-              <div class="description">
-                <p class="summary">
-                  내부 어드민, 셀러(파트너스, 셀러스) 어드민을 전반적으로 운영 및 관리
-                </p>
-                <ul>
-                  <li>
-                    지속적으로 관리 및 운영을 해야하는 기능이 추가될 때마다 어드민내 화면/기능 개발
-                  </li>
-                  <li>
-                    유지보수 어려움이 있는 레거시 어드민 기능을 이전
-                  </li>
-                </ul>
-                <p class="tech">Vue.js, TypeScript, PHP</p>
               </div>
             </div>
           </div>
@@ -291,74 +225,7 @@
 
           <div class="experience-box">
             <div class="experience__desc">
-              <h4 class="title">결제 이전</h4>
-              <p class="period">2020.03 ~ 2020.05</p>
-              <div class="description">
-                <p class="summary">
-                  결제 API 이전 및 PG사 변경으로 인한 신규 개발
-                </p>
-                <ul>
-                  <li>기존 php와 pg사 관련 로직 청산</li>
-                  <li>신규 결제 로직 구현 및 데이터 구조 설계</li>
-                  <li>운영, 어드민, 주문중개로 분리된 API 통합</li>
-                  <li>결제 부분취소 추가</li>
-                  <li>쿠폰, 포인트 등 결제시 할인에 관련된 로직 개선</li>
-                </ul>
-                <p class="tech">JavaScript, Python(Django), PHP</p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">인증</h4>
-              <p class="period">2020.03 ~ 2020.03</p>
-              <div class="description">
-                <p class="summary">성인인증 상품 추가에 따른 본인인증 구현</p>
-                <ul>
-                  <li>일반/성인상품 UI 및 기능 구분 처리</li>
-                  <li>본인인증 로직 구현 및 구조 설계</li>
-                </ul>
-                <p class="tech">JavaScript, Python(Django), HTML, CSS</p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">회원통합</h4>
-              <p class="period">2020.02 ~ 2020.04</p>
-              <div class="description">
-                <p class="summary">
-                  일반계정, 소셜계정 통합 및 로그인/회원가입 리뉴얼
-                </p>
-                <ul>
-                  <li>소셜 계정과 일반계정 통합 및 연동</li>
-                </ul>
-                <p class="tech">JavaScript, Python(Django), PHP</p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">지도 서비스 개편</h4>
-              <p class="period">2020.01 ~ 2020.02</p>
-              <div class="description">
-                <p class="summary">
-                  카카오 지도 API를 사용하여 지도 커스텀 및 UI 리뉴얼
-                </p>
-                <ul>
-                  <li>
-                    기존 모든 매장 위치를 마커로 인한 속도 저하와 잦은 호출 문제를 영역범위,
-                    드래그/줌 제어 등을 통해 속도 및 사용성 개선
-                  </li>
-                  <li>특정 반경 또는 동일 좌표내 마커 및 오버레이 정보 중첩 처리</li>
-                  <li>Redis로 좌표 클러스터링된 데이터를 활용하여 위치 기반 API 개발</li>
-                </ul>
-                <p class="tech">
-                  JavaScript, Kakao Map, Python(Django), HTML
-                </p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">편의점(세븐일레븐), 일반 업주용 앱 런칭</h4>
-              <p class="period">2019.6 ~ 2020.05</p>
+              <h4 class="title">편의점/라스트오더 업주용 앱 런칭</h4>
               <div class="description">
                 <p class="summary">
                   주문관리(주문확정, 주문완료, 주문취소등), 실시간 주문확인, 상품등관리, 통계 등의
@@ -371,25 +238,49 @@
                   <li>Socket통신을 통한 실시간 주문확인</li>
                   <li>Andriod, iOS 배포 및 관리</li>
                 </ul>
-                <p class="tech">
-                  NativeScript-Vue, Vuex, Socket.io, Python(Django), Firebase
-                </p>
               </div>
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">영업자용 앱 런칭</h4>
-              <p class="period">2019.10 ~ 2019.12</p>
+              <h4 class="title">위치 서비스 개편</h4>
               <div class="description">
                 <p class="summary">
-                  영업자분들이 쉽게 매장을 등록할 수 있고 관리할 수 있는 영업 전용앱
+                  카카오 지도 API를 사용하여 지도 커스텀 및 UI 리뉴얼
                 </p>
                 <ul>
-                  <li>트리형 사용자 권한 기능 구현</li>
+                  <li>
+                    기존 모든 매장 위치를 마커로 인한 속도 저하와 잦은 호출 문제를 영역범위,
+                    드래그/줌 제어 등을 통해 속도 및 사용성 개선
+                  </li>
+                  <li>특정 반경 또는 동일 좌표내 마커 및 오버레이 정보 중첩 처리</li>
+                  <li>Redis내 좌표 클러스터링된 데이터를 활용하여 위치 기반 API 개발</li>
                 </ul>
-                <p class="tech">
-                  Vue, Vuex, JavaScript, Python(DRF), Material-UI
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">결제 및 인증</h4>
+              <div class="description">
+                <p class="summary">
+                  결제 서버 분리 및 PG사 변경으로 인한 신규 개발
                 </p>
+                <ul>
+                  <li>결제 로직 구현 및 데이터 구조 설계</li>
+                  <li>운영, 어드민, 주문중개로 분리된 API 통합</li>
+                  <li>성인용품 - 웹뷰내 상품 타입별 주문/결제 등 로직 개선</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">회원통합</h4>
+              <div class="description">
+                <p class="summary">
+                  일반계정, 소셜계정 통합 및 로그인/회원가입 리뉴얼
+                </p>
+                <ul>
+                  <li>소셜 계정과 일반계정 통합 및 연동</li>
+                </ul>
               </div>
             </div>
 
@@ -399,34 +290,19 @@
               <div class="description">
                 <p class="summary">운영 서비스</p>
                 <ul>
-                  <li>
-                    기본적인 유지보수 및 운영 비롯해 비즈니스 요구에 맞는 다양한 화면 및 기능 구현
-                  </li>
-                  <li>
-                    각 도메인, 목적에 맞게 로직 및 API 분리
-                  </li>
-                  <li>
-                    컴포넌트 의존성 최소화
-                  </li>
+                  <li>라이프사이클 훅을 상황에 맞게 고려하여 API 호출 최소화</li>
                   <li>리플로우, 리페인트 최소화하기 위해 영역, 렌더링 관련된 로직 개선</li>
+                  <li>각 도메인, 목적에 맞게 로직 및 API 분리</li>
+                  <li>컴포넌트 의존성 최소화</li>
                   <li>스켈레톤 UI, 이미지 로딩 등을 통한 UX 개선</li>
-                  <li>
-                    각 화면에서 라이프사이클 훅을 상황에 맞게 고려하여 API 호출 최소화
-                  </li>
                   <li>
                     Hash 및 history를 제어하여 브라우저 뒤로가기, 외부 공유 등의 상황에서 사용자가
                     바라보고 있던 화면이 유지되도록 개선
                   </li>
-                  <li>
-                    배송, 포인트 정책등 변경 및 신규 정책 반영
-                  </li>
                   <li>기존 PHP로 작성된 레거시를 Django로 이전</li>
-                  <li>RDS read, master 등 프론트, 백엔드 프로덕션과 개발 환경 분리</li>
+                  <li>RDS read, master 분리로 로드 퍼포먼스 개선</li>
+                  <li>프로덕션과 개발 환경 분리</li>
                 </ul>
-                <p class="tech">
-                  JavaScript, jQuery, PHP, Python(Django), HTML, CSS, Webpack, MySQL, S3, Nginx,
-                  Apache, EC2, Docker, Travis CI, Onsen UI
-                </p>
               </div>
             </div>
           </div>
@@ -445,11 +321,7 @@
             <div class="experience__desc">
               <h4 class="title">SK하이닉스 통근버스 관제시스템</h4>
               <p class="period">2018.04 ~ 2018.10</p>
-              <div class="description">
-                <p class="tech">
-                  JavaScript, HTML, CSS, jQuery, Java, Spring Boot, MyBatis, MySQL
-                </p>
-              </div>
+              <div class="description"></div>
             </div>
           </div>
         </div>
@@ -457,8 +329,8 @@
         <div class="experience">
           <div class="experience__title">
             <h3 class="title">디오네르(크라운구스)</h3>
+            <p class="job">Front-End</p>
             <div class="description">
-              <p class="job">Front-End, Publishing</p>
               <p class="period">2016.12 ~ 2018.01 (14개월)</p>
             </div>
           </div>
@@ -467,9 +339,6 @@
             <div class="experience__desc">
               <h4 class="title">쇼핑몰 유지보수 및 리뉴얼</h4>
               <p class="period">2016.12 ~ 2018.1</p>
-              <div class="description">
-                <p class="tech">PHP, HTML, CSS, jQuery, JavaScript</p>
-              </div>
             </div>
           </div>
         </div>
