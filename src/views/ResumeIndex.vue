@@ -134,10 +134,10 @@
                   <a href="https://ably.team/" target="_blank">페이지</a>
                 </p>
                 <ul>
-                  <li>Headless CMS인 prismic, 리쿠르팅 시스템인 Greenhouse 활용</li>
+                  <li>Headless CMS인 Prismic, 리쿠르팅 시스템인 Greenhouse 활용</li>
                   <li>GraphQL를 활용하여 Prismic, Greenhouse과 데이터 통신 구현</li>
                   <li>Next.js와 Prismic의 meta를 활용하여 SEO 처리</li>
-                  <li>prismic의 정해진 형식 UI 커스텀</li>
+                  <li>Prismic의 정해진 형식 UI 커스텀</li>
                   <li>Prismic CMS, Greenhouse 사용 정책 문서화</li>
                 </ul>
               </div>
