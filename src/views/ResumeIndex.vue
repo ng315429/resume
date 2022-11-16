@@ -520,14 +520,14 @@
     </base-content>
 
     <base-content>
-      <template slot="content-title">Education.</template>
+      <template slot="content-title">교육</template>
       <template slot="content-desc">
         2011.03 ~ 2017.08 서경대학교 컴퓨터과학과
       </template>
     </base-content>
 
     <base-content>
-      <template slot="content-title">Etc.</template>
+      <template slot="content-title">기타</template>
       <template slot="content-desc">
         2016.05 정보처리기사 취득 <br />
         2015.04 ~ 2015.12 한이음 ICT멘토링 참여
