@@ -144,7 +144,7 @@
                 <ul>
                   <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
                 </ul>
-                <p class="tech">Vue.js, TypeScript</p>
+                <p class="tech">TypeScript</p>
               </div>
             </div>
 
