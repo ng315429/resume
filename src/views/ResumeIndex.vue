@@ -108,64 +108,51 @@
               <h4 class="title">버티컬 카테고리 확장</h4>
               <div class="description">
                 <p class="summary">
-                  속한 스쿼드에서 버티컬 카테고리 확장에 필요한 가설을 검증 및 실험<br />
+                  스쿼드에서 버티컬 카테고리 확장에 필요한 가설을 검증 및 실험<br />
                   이에 필요한 웹뷰, 어드민 개발
                 </p>
                 <ul>
-                  <li>초기 스펙 문서 작성 - 여러 변수 및 고려사항 파악</li>
-                  <li>MVP로 빠르게 배포 후 가설 검증 및 실험</li>
-                  <li>화면 및 기능에 맞게 SSR, CSR, ISR방식으로 구현</li>
-                  <li>
-                    앱내 웹뷰를 스택 레이어 방식으로 화면이 전환 - 좋아요 기능 등 이전 화면과 싱크를
-                    맞춰야 하는 로직을 로컬스토리지로 구현
-                    <br />
-                    비슷한 환경 또는 기능을 구현할 때 사용 가능하도록 로직 및 훅 분리 구현
-                  </li>
+                  <li>초기 스펙 문서 작성 및 기획</li>
+                  <li>타 스쿼드 이해관계자와 정책 논의</li>
+                  <li>MVP로 가설 검증 및 실험, 이터레이션</li>
+                  <li>SSR, CSR, ISR방식으로 구현</li>
                   <li>
                     Vue.js -> React.js환경으로 이전한지 얼마되지 않아 필요한 디자인시스템 및 훅 등을
                     구현
                   </li>
                   <li>
-                    웹뷰내에 실험에 필요한 통계 이벤트 로깅 구현
+                    앱내 웹뷰를 스택 레이어 방식으로 화면이 전환 - 좋아요 기능 등 이전 화면과 싱크를
+                    맞춰야 하는 로직을 로컬스토리지로 구현
+                    <br />
+                    범용적으로 사용 가능하도록 로직 및 훅 분리
                   </li>
-                  <li>여가, 플레이스, TPO등...</li>
+                  <li>
+                    통계 이벤트 로깅 구현
+                  </li>
                 </ul>
                 <p class="tech">React, Next.js, React-Query, Recoil, Vue.js, TypeScript</p>
               </div>
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">통계 이벤트 로거</h4>
+              <h4 class="title">채용 페이지</h4>
               <div class="description">
                 <p class="summary">
-                  웹뷰내에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게
-                  개선<br />
+                  회사 및 채용 관련 정보를 확인할 수 있는
+                  <a href="https://ably.team/" target="_blank">페이지</a>
                 </p>
                 <ul>
-                  <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
+                  <li>Headless CMS인 prismic을 활용하여 화면 구현</li>
+                  <li>prismic의 정해진 형식 UI 커스텀</li>
+                  <li>
+                    리쿠르팅 시스템인 Greenhouse과 연동
+                  </li>
+                  <li>
+                    Prismic CMS, Greenhouse 사용 정책 문서화
+                  </li>
+                  <li>Prismic, Greenhouse과 데이터 통신 - GraphQL로 구현</li>
                 </ul>
-                <p class="tech">TypeScript</p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">리뷰 검수</h4>
-              <div class="description">
-                <p class="summary">
-                  리뷰(텍스트, 포토)를 더 빠르고 쉽게 검수할 수 있도록 개선
-                </p>
-                <ul>
-                  <li>
-                    키보드로만 검수를 진행할 수 있도록 다양한 단축키 구현 및 방식 변경
-                  </li>
-                  <li>
-                    리뷰를 한눈에 파악할 수 있도록 UI개선
-                  </li>
-                  <li>
-                    검수 정책이 변경에 따른 로직 리팩토링
-                  </li>
-                </ul>
-                <p class="tech">Vue.js, TypeScript</p>
+                <p class="tech">React, Next.js, GraphQL, TypeScript, Prismic CMS, Greenhouse</p>
               </div>
             </div>
 
@@ -210,24 +197,35 @@
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">채용 페이지</h4>
+              <h4 class="title">통계 이벤트 로거</h4>
               <div class="description">
                 <p class="summary">
-                  회사 및 채용 관련 정보를 확인할 수 있는
-                  <a href="https://ably.team/" target="_blank">페이지</a>
+                  웹뷰내에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게
+                  개선<br />
                 </p>
                 <ul>
-                  <li>Headless CMS인 prismic을 활용하여 화면 구현</li>
-                  <li>prismic의 정해진 형식의 UI를 커스텀</li>
-                  <li>
-                    리쿠르팅 시스템인 Greenhouse과 연동
-                  </li>
-                  <li>
-                    Prismic CMS, Greenhouse의 사용 정책 문서화
-                  </li>
-                  <li>Prismic, Greenhouse과 데이터 통신을 GraphQL로 구현</li>
+                  <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
                 </ul>
-                <p class="tech">React, Next.js, GraphQL, TypeScript, Prismic CMS, Greenhouse</p>
+                <p class="tech">TypeScript</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">리뷰 검수</h4>
+              <div class="description">
+                <p class="summary">
+                  리뷰(텍스트, 포토)를 더 빠르고 쉽게 검수할 수 있도록 개선 검수 정책이 변경에 따른
+                  로직 리팩토링
+                </p>
+                <ul>
+                  <li>
+                    키보드로만 검수를 진행할 수 있도록 다양한 단축키 구현
+                  </li>
+                  <li>
+                    어드민내 리뷰 노출 UI 방식 개선
+                  </li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript</p>
               </div>
             </div>
 
@@ -305,38 +303,36 @@
                 </p>
                 <ul>
                   <li>기존 php와 pg사 관련 로직 청산</li>
-                  <li>신규 결제 로직 구현</li>
+                  <li>신규 결제 로직 구현 및 데이터 구조 설계</li>
                   <li>운영, 어드민, 주문중개로 분리된 API 통합</li>
                   <li>결제 부분취소 추가</li>
                   <li>쿠폰, 포인트 등 결제시 할인에 관련된 로직 개선</li>
                 </ul>
-                <p class="tech">JavaScript, Python(Django), Php</p>
+                <p class="tech">JavaScript, Python(Django), PHP</p>
               </div>
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">성인인증</h4>
+              <h4 class="title">인증</h4>
               <p class="period">2020.03 ~ 2020.03</p>
               <div class="description">
-                <p class="summary">성인인증 상품 추가</p>
+                <p class="summary">성인인증 상품 추가에 따른 본인인증 구현</p>
                 <ul>
-                  <li>일반상품/성인상품 UI/기능 구분 처리</li>
-                  <li>본인인증 로직 구현</li>
+                  <li>일반/성인상품 UI 및 기능 구분 처리</li>
+                  <li>본인인증 로직 구현 및 구조 설계</li>
                 </ul>
                 <p class="tech">JavaScript, Python(Django), HTML, CSS</p>
               </div>
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">회원통합 및 로그인/회원가입 개편</h4>
+              <h4 class="title">회원통합</h4>
               <p class="period">2020.02 ~ 2020.04</p>
               <div class="description">
                 <p class="summary">
                   일반계정, 소셜계정 통합 및 로그인/회원가입 리뉴얼
                 </p>
                 <ul>
-                  <li>회원통합 및 연동 상태에 따른 UI/기능 구분 처리</li>
-                  <li>소셜 가입시 회원여부, 인증 및 가입 절차 구현</li>
                   <li>소셜 계정과 일반계정 통합 및 연동</li>
                 </ul>
                 <p class="tech">JavaScript, Python(Django), PHP</p>
@@ -356,8 +352,7 @@
                     드래그/줌 제어 등을 통해 속도 및 사용성 개선
                   </li>
                   <li>특정 반경 또는 동일 좌표내 마커 및 오버레이 정보 중첩 처리</li>
-                  <li>Redis를 사용하여 좌표 클러스터링 기능 개발</li>
-                  <li>위치기반 API 개발</li>
+                  <li>Redis로 좌표 클러스터링된 데이터를 활용하여 위치 기반 API 개발</li>
                 </ul>
                 <p class="tech">
                   JavaScript, Kakao Map, Python(Django), HTML
@@ -366,8 +361,8 @@
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">편의점(세븐일레븐) 업주용 앱 런칭</h4>
-              <p class="period">2019.12 ~ 2020.05</p>
+              <h4 class="title">편의점(세븐일레븐), 일반 업주용 앱 런칭</h4>
+              <p class="period">2019.6 ~ 2020.05</p>
               <div class="description">
                 <p class="summary">
                   주문관리(주문확정, 주문완료, 주문취소등), 실시간 주문확인, 상품등관리, 통계 등의
@@ -403,28 +398,6 @@
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">일반 업주용 앱 런칭</h4>
-              <p class="period">2019.06 ~ 2020.04</p>
-              <div class="description">
-                <p class="summary">
-                  주문관리(주문확정, 주문완료, 주문취소), 실시간 주문확인, 상품등관리, 통계 등의
-                  기능을 제공하는 일반 업주 전용앱
-                </p>
-                <ul>
-                  <li>화면 및 기능 개발</li>
-                  <li>컴포넌트 캐싱, 코드스플리팅 등을 통한 속도 개선</li>
-                  <li>업주 니즈에 맞게 화면 및 기능 개발/개선</li>
-                  <li>Socket통신을 통한 실시간 주문확인 구현</li>
-                  <li>백엔드 개발</li>
-                  <li>추후 신규 업주용 앱 코드 베이스</li>
-                </ul>
-                <p class="tech">
-                  NativeScript-Vue, Vuex, Socket.io, Python(Django)
-                </p>
-              </div>
-            </div>
-
-            <div class="experience__desc">
               <h4 class="title">라스트오더 프론트/백엔드 개발 및 유지보수</h4>
               <p class="period">2019.02 ~ 2020.06</p>
               <div class="description">
@@ -436,27 +409,23 @@
                   <li>
                     각 도메인, 목적에 맞게 로직 및 API 분리
                   </li>
-                  <li>모여있는 로직, 모듈화 진행</li>
                   <li>
-                    모듈 독립성을 최대한 보장하기 위해 의존성 최소화로 로직 개선
+                    컴포넌트 의존성 최소화
                   </li>
-                  <li>리플로우, 리페인트 최소화로 렌더링 개선</li>
+                  <li>리플로우, 리페인트 최소화하기 위해 영역, 렌더링 관련된 로직 개선</li>
                   <li>스켈레톤 UI, 이미지 로딩 등을 통한 UX 개선</li>
                   <li>
-                    각 화면에서 라이프사이클 훅을 상황에 맞게 고려하여 API 호출 최소화 및 사용성
-                    개선
+                    각 화면에서 라이프사이클 훅을 상황에 맞게 고려하여 API 호출 최소화
                   </li>
                   <li>
                     Hash 및 history를 제어하여 브라우저 뒤로가기, 외부 공유 등의 상황에서 사용자가
                     바라보고 있던 화면이 유지되도록 개선
                   </li>
                   <li>
-                    배송, 포인트 정책등 변경 및 신규 정책등이 추가/변경됨에 따라 화면 및 기능 구현
+                    배송, 포인트 정책등 변경 및 신규 정책 반영
                   </li>
-                  <li>다양한 브라우저, 앱 환경 대응</li>
-                  <li>기존 PHP로 작성된 레거시를 Django로 부분 이전 작업</li>
+                  <li>기존 PHP로 작성된 레거시를 Django로 이전</li>
                   <li>RDS read, master 등 프론트, 백엔드 프로덕션과 개발 환경 분리</li>
-                  <li>전반적인 환경 배포 환경 관리</li>
                 </ul>
                 <p class="tech">
                   JavaScript, jQuery, PHP, Python(Django), HTML, CSS, Webpack, MySQL, S3, Nginx,
@@ -481,14 +450,6 @@
               <h4 class="title">SK하이닉스 통근버스 관제시스템</h4>
               <p class="period">2018.04 ~ 2018.10</p>
               <div class="description">
-                <p class="summary">
-                  SK하이닉스 통근버스 앱 및 어드민 페이지 개발
-                </p>
-                <ul>
-                  <li>웹뷰 및 API 개발</li>
-                  <li>관리자 페이지 및 API 개발</li>
-                  <li>화면 기획</li>
-                </ul>
                 <p class="tech">
                   JavaScript, HTML, CSS, jQuery, Java, Spring Boot, MyBatis, MySQL
                 </p>
