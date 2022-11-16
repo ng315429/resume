@@ -56,7 +56,7 @@
               <li>TypeScript</li>
               <li>JavaScript</li>
               <li>Vue.js, Vuex, Vue-Query</li>
-              <li>React.js, Recoil, React-Query, GraphQL</li>
+              <li>React, Recoil, React-Query, GraphQL</li>
               <li>Next.js</li>
               <li>NativeScript-Vue</li>
             </ul>
@@ -100,6 +100,188 @@
             <div class="description">
               <p class="job">Front-End</p>
               <p class="period">2021.01 ~</p>
+            </div>
+          </div>
+
+          <div class="experience-box">
+            <div class="experience__desc">
+              <h4 class="title">버티컬 카테고리 확장</h4>
+              <div class="description">
+                <p class="summary">
+                  속한 스쿼드에서 버티컬 카테고리 확장에 필요한 가설을 검증 및 실험<br />
+                  이에 필요한 웹뷰, 어드민 개발
+                </p>
+                <ul>
+                  <li>초기 스펙 문서 작성 - 여러 변수 및 고려사항 파악</li>
+                  <li>MVP로 빠르게 배포 후 가설 검증 및 실험</li>
+                  <li>화면 및 기능에 맞게 SSR, CSR, ISR방식으로 구현</li>
+                  <li>
+                    앱내 웹뷰를 스택 레이어 방식으로 화면이 전환 - 좋아요 기능 등 이전 화면과 싱크를
+                    맞춰야 하는 로직을 로컬스토리지로 구현
+                    <br />
+                    비슷한 환경 또는 기능을 구현할 때 사용 가능하도록 로직 및 훅 분리 구현
+                  </li>
+                  <li>
+                    Vue.js -> React.js환경으로 이전한지 얼마되지 않아 필요한 디자인시스템 및 훅 등을
+                    구현
+                  </li>
+                  <li>
+                    웹뷰내에 실험에 필요한 통계 이벤트 로깅 구현
+                  </li>
+                  <li>여가, 플레이스, TPO등...</li>
+                </ul>
+                <p class="tech">React, Next.js, React-Query, Recoil, Vue.js, TypeScript</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">통계 이벤트 로거</h4>
+              <div class="description">
+                <p class="summary">
+                  웹뷰내에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게
+                  개선<br />
+                </p>
+                <ul>
+                  <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">리뷰 검수</h4>
+              <div class="description">
+                <p class="summary">
+                  리뷰를 더 빠르고 쉽게 검수할 수 있도록 개선
+                </p>
+                <ul>
+                  <li>
+                    키보드로만 검수를 진행할 수 있도록 다양한 단축키 구현
+                  </li>
+                  <li>
+                    리뷰를 한눈에 파악할 수 있도록 UI개선
+                  </li>
+                  <li>
+                    검수 정책이 변경되면서 전체적인 로직 리팩토링
+                  </li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">프로모션용 빌더</h4>
+              <div class="description">
+                <p class="summary">
+                  프로모션 화면을 개발하는 반복 작업을 청산<br />
+                  자주 사용되는 프로모션 기능과 화면 구성을 쉽게 등록, 관리할 수 프로모션용 빌더
+                </p>
+                <ul>
+                  <li>
+                    서버와 타입별 컴포넌트를 Server Driven UI(SDUI)방식과 유사하게 구현
+                  </li>
+                  <li>
+                    각 타입별 컴포넌트(프로모션용 디자인시스템)을 개발
+                  </li>
+                  <li>등록된 화면을 json형식으로 웹뷰-서버-어드민 통신</li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">클래스 모델</h4>
+              <div class="description">
+                <p class="summary">
+                  각 도메인별로 사용되고 있는 모델은 동일하나 비즈니스 로직이 반복적으로 선언되는
+                  문제점을 개선
+                </p>
+                <ul>
+                  <li>
+                    class-transformer 라이브러리를 활용하여 서버에서 받은 plain object를 class
+                    object로 컨버팅
+                  </li>
+                  <li>
+                    class-object내 해당 도메인 모델이 사용되는 비즈니스 로직을 구현
+                  </li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript, class-transformer</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">채용 페이지</h4>
+              <div class="description">
+                <p class="summary">
+                  회사 및 채용 관련 정보를 확인할 수 있는
+                  <a href="https://ably.team/" target="_blank">페이지</a>
+                </p>
+                <ul>
+                  <li>Headless CMS인 prismic을 활용하여 화면 구현</li>
+                  <li>prismic의 정해진 형식의 UI를 커스텀</li>
+                  <li>
+                    리쿠르팅 시스템인 Greenhouse과 연동
+                  </li>
+                  <li>
+                    Prismic CMS, Greenhouse의 사용 정책 문서화
+                  </li>
+                  <li>Prismic, Greenhouse과 데이터 통신을 GraphQL로 구현</li>
+                </ul>
+                <p class="tech">React, Next.js, GraphQL, TypeScript, Prismic CMS, Greenhouse</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">배너</h4>
+              <div class="description">
+                <p class="summary">
+                  가장 사용 빈도가 높지만 각 스쿼드마다 따로 문서로 관리되던 배너 일정을 운영어드민
+                  한 곳에서 관리
+                  <br />
+                  현재/미래 배너를 날짜, 화면 위치/타입, 사이즈, 순서등을 관리
+                </p>
+                <ul>
+                  <li>
+                    앱에서 배너가 필요한 화면 타입에 맞게 등록 및 일정 관리할 수 있는 화면/기능 구현
+                  </li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">실험 플랫폼</h4>
+              <div class="description">
+                <p class="summary">
+                  분산되어 관리가 제대로 되지 않는 실험 관련된 이벤트, 파라미터등을 운영어드민 한
+                  곳에서 관리
+                </p>
+                <ul>
+                  <li>
+                    웹뷰/앱에서 사용되는 앰플리튜드, 파이어베이스, 브레이즈등의 실험,A/B테스트 관련
+                    이벤트 및 파라미터를 등록, 관리할 수 있도록 화면/기능 구현
+                  </li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript</p>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">어드민 관리</h4>
+              <div class="description">
+                <p class="summary">
+                  내부 어드민, 셀러(파트너스, 셀러스) 어드민을 전반적으로 운영 및 관리
+                </p>
+                <ul>
+                  <li>
+                    지속적으로 관리 및 운영을 해야하는 기능이 추가될 때마다 어드민내 화면/기능 개발
+                  </li>
+                  <li>
+                    유지보수 어려움이 있는 레거시 어드민 기능을 이전
+                  </li>
+                </ul>
+                <p class="tech">Vue.js, TypeScript, PHP</p>
+              </div>
             </div>
           </div>
         </div>
@@ -547,6 +729,10 @@ export default {
             margin: 1rem 0;
             font-size: 1rem;
             font-weight: 400;
+
+            > a {
+              text-decoration: underline;
+            }
           }
 
           ul {
