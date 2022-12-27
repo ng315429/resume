@@ -143,7 +143,7 @@
               </div>
             </div>
 
-            <div class="experience__desc">
+            <!-- <div class="experience__desc">
               <h4 class="title">프로모션용 빌더</h4>
               <div class="description">
                 <p class="summary">
@@ -161,7 +161,7 @@
                   <li>Vue, React환경에서 렌더방식 각각 구현</li>
                 </ul>
               </div>
-            </div>
+            </div> -->
 
             <div class="experience__desc">
               <h4 class="title">클래스 모델</h4>
@@ -240,7 +240,7 @@
               </div>
             </div>
 
-            <!-- <div class="experience__desc">
+            <div class="experience__desc">
               <h4 class="title">위치 서비스 개편</h4>
               <div class="description">
                 <p class="summary">
@@ -281,7 +281,7 @@
                   <li>소셜 계정과 일반계정 통합 및 연동</li>
                 </ul>
               </div>
-            </div> -->
+            </div>
 
             <div class="experience__desc">
               <h4 class="title">라스트오더 프론트/백엔드 개발 및 유지보수</h4>
