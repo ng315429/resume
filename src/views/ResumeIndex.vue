@@ -51,9 +51,8 @@
             <ul>
               <li>TypeScript</li>
               <li>JavaScript</li>
-              <li>Vue.js, Vuex</li>
-              <li>React, Recoil, React-Query, GraphQL</li>
-              <li>Next.js</li>
+              <li>Vue.js, Nuxt.js, Vuex</li>
+              <li>React, Next.js Recoil, React-Query</li>
               <li>NativeScript-Vue</li>
             </ul>
           </div>
@@ -106,22 +105,24 @@
                   스쿼드에서 버티컬 카테고리 확장에 필요한 가설 검증 및 실험
                 </p>
                 <ul>
-                  <li>Next.js의 SSR, CSR, ISR방식 구현 및 SEO 처리</li>
+                  <li>Next.js의 SSR, CSR, ISR방식 구현 및 SSR내 부분 CSR 구현</li>
                   <li>
-                    환경 이전 - 디자인시스템 및 훅 등 구현
+                    환경 이전 - 공용 디자인시스템 및 훅 구현
                   </li>
                   <li>
                     React-Query로 캐싱, 서버 상태 관리 및 중복 호출 제거, optimistic update 등
-                    처리<br />
+                    처리로 유저 사용성 최적화 및 서버와의 통신 최소화
                   </li>
                   <li>Recoil을 활용하여 Portal 컴포넌트 상태 관리</li>
                   <li>
-                    앱내 웹뷰를 스택 레이어 방식으로 화면 전환 - 데이터 싱크를 로컬스토리지로 구현
-                    및 범용 훅 개발
+                    앱내 웹뷰를 스택 레이어 방식으로 화면 전환 - React-Query 캐싱 또는 로컬스토리지
+                    등으로 데이터 싱크 구현
                   </li>
                   <li>
                     통계 이벤트 로깅 구현
                   </li>
+                  <li>SEO 처리</li>
+                  <li>선물하기, 유저 리뷰 콘텐츠 커뮤니티, 퍼스널컬러 테스트 등</li>
                 </ul>
               </div>
             </div>
