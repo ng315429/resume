@@ -57,31 +57,6 @@
             </ul>
           </div>
         </div>
-        <!-- <div class="skill-box">
-          <div class="skill__title">Back-End</div>
-          <div class="skill__desc">
-            <ul>
-              <li>Python, Django REST framework</li>
-              <li>PHP</li>
-              <li>Node.js, Express.js</li>
-              활용해 RESTful API, 인증, 웹서버 등을 구성할 수 있습니다.
-            </ul>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill__title">DevOps</div>
-          <div class="skill__desc">
-            <ul>
-              <li>
-                AWS(RDS, S3, CloudFont, Cloudwatch, Route53, EC2)
-              </li>
-              <li>
-                GitHub Actions, Travis
-              </li>
-              활용해 어플리케이션 레이어, CI 환경 등을 구성할 수 있습니다.
-            </ul>
-          </div>
-        </div> -->
       </template>
     </base-content>
 
@@ -113,7 +88,7 @@
                     React-Query로 캐싱, 서버 상태 관리 및 중복 호출 제거, optimistic update 등
                     처리로 유저 사용성 최적화 및 서버와의 통신 최소화
                   </li>
-                  <li>Recoil을 활용하여 Portal 컴포넌트 상태 관리</li>
+                  <li>Recoil을 활용하여 상태 관리</li>
                   <li>
                     앱내 웹뷰를 스택 레이어 방식으로 화면 전환 - React-Query 캐싱 또는 로컬스토리지
                     등으로 데이터 싱크 구현
@@ -121,7 +96,6 @@
                   <li>
                     통계 이벤트 로깅 구현
                   </li>
-                  <li>SEO 처리</li>
                   <li>선물하기, 유저 리뷰 콘텐츠 커뮤니티, 퍼스널컬러 테스트 등</li>
                 </ul>
               </div>
@@ -140,6 +114,36 @@
                   <li>Next.js와 Prismic의 meta를 활용하여 SEO 처리</li>
                   <li>Prismic의 정해진 형식 UI 커스텀</li>
                   <li>Prismic CMS, Greenhouse 사용 정책 문서화</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">통계 이벤트 로거</h4>
+              <div class="description">
+                <p class="summary">
+                  웹뷰에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게 개선
+                </p>
+                <ul>
+                  <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
+                  <li>이벤트 타입별 추상 클래스로 처리</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">어드민 운영 및 유지보수</h4>
+              <div class="description">
+                <p class="summary">
+                  사내 및 셀러 전용 어드민 운영 및 유지보수
+                </p>
+                <ul>
+                  <li>
+                    운영이 필요한 다양한 기능 추가 및 개선
+                  </li>
+                  <li>
+                    셀러 니즈에 맞춰 기능 개발 및 개선
+                  </li>
                 </ul>
               </div>
             </div>
@@ -164,19 +168,6 @@
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">통계 이벤트 로거</h4>
-              <div class="description">
-                <p class="summary">
-                  웹뷰에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게 개선
-                </p>
-                <ul>
-                  <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
-                  <li>이벤트 타입별 추상 클래스로 처리</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="experience__desc">
               <h4 class="title">실험 플랫폼</h4>
               <div class="description">
                 <p class="summary">
@@ -187,23 +178,6 @@
                   <li>
                     웹뷰/앱에서 사용되는 앰플리튜드, 파이어베이스, 브레이즈 등의 통계 이벤트를
                     관리할 수 있는 화면/기능 개발
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="experience__desc">
-              <h4 class="title">어드민 운영 및 유지보수</h4>
-              <div class="description">
-                <p class="summary">
-                  사내 및 셀러 전용 어드민 운영 및 유지보수
-                </p>
-                <ul>
-                  <li>
-                    운영이 필요한 다양한 기능 추가 및 개선
-                  </li>
-                  <li>
-                    셀러 니즈에 맞춰 기능 개발 및 개선
                   </li>
                 </ul>
               </div>
