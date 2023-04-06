@@ -144,26 +144,6 @@
               </div>
             </div>
 
-            <!-- <div class="experience__desc">
-              <h4 class="title">프로모션용 빌더</h4>
-              <div class="description">
-                <p class="summary">
-                  프로모션 화면을 개발하는 반복 작업을 청산<br />
-                  자주 사용되는 프로모션 기능과 화면 구성을 쉽게 등록, 관리할 수 프로모션용 빌더
-                </p>
-                <ul>
-                  <li>
-                    서버와 타입별 컴포넌트를 Server-Driven UI(SDUI)방식과 유사하게 구현
-                  </li>
-                  <li>
-                    각 타입별 컴포넌트(프로모션용 디자인시스템)를 개발
-                  </li>
-                  <li>등록된 프로모션을 json형식으로 웹뷰-서버-어드민 통신</li>
-                  <li>Vue, React환경에서 렌더방식 각각 구현</li>
-                </ul>
-              </div>
-            </div> -->
-
             <div class="experience__desc">
               <h4 class="title">클래스 모델</h4>
               <div class="description">
@@ -207,6 +187,23 @@
                   <li>
                     웹뷰/앱에서 사용되는 앰플리튜드, 파이어베이스, 브레이즈 등의 통계 이벤트를
                     관리할 수 있는 화면/기능 개발
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">어드민 운영 및 유지보수</h4>
+              <div class="description">
+                <p class="summary">
+                  사내 및 셀러 전용 어드민 운영 및 유지보수
+                </p>
+                <ul>
+                  <li>
+                    운영이 필요한 다양한 기능 추가 및 개선
+                  </li>
+                  <li>
+                    셀러 니즈에 맞춰 기능 개발 및 개선
                   </li>
                 </ul>
               </div>
