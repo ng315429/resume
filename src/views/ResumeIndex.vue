@@ -82,7 +82,7 @@
                 <ul>
                   <li>특정 API에 의존적인 Waterfall형태의 문제를 개선</li>
                   <li>데이터 호출을 병렬 처리</li>
-                  <li>평균 마지막 데이터 호출 대기 시간은 0.5s감소</li>
+                  <li>마지막 데이터 호출 대기 시간을 평균 0.5s감소</li>
                   <li>FCP 최대 1.5s 감소</li>
                   <li>Suspense이용한 Fallback Skeleton 처리</li>
                   <li>영역별 Skeleton처리로 CLS를 0.2에서 0.001로 감소</li>
@@ -97,10 +97,11 @@
                   Vue -> React로 마이그레이션
                 </p>
                 <ul>
-                  <li>이전 Vue로 만들어지는 화면들을 React로 마이그레이션</li>
-                  <li>불필요한 로직들 개선 및 UI 변경</li>
+                  <li>Vue로 만들어지는 화면들을 React로 마이그레이션</li>
+                  <li>로직 개선 및 UI 변경</li>
                   <li>
-                    클라이언트 상태 관리 형태를 React-Query로 서버 상태 관리로 개선
+                    React-Query를 사용하여 서버 상태 위주의 데이터 캐싱 형태로 불필요한 클라이언트
+                    상태 처리 개선
                   </li>
                   <li>Recoil로 클라이언트 상태 관리</li>
                   <li>이전하는 화면들의 비즈니스 로직 등 히스토리를 파악 후 정리</li>
