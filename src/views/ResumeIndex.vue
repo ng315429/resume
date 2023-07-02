@@ -74,6 +74,42 @@
 
           <div class="experience-box">
             <div class="experience__desc">
+              <h4 class="title">마이페이지 개선</h4>
+              <div class="description">
+                <p class="summary">
+                  웹과 웹뷰에서 사용중인 동일한 마이페이지 화면을 개선
+                </p>
+                <ul>
+                  <li>특정 API에 의존적인 Waterfall형태의 문제를 개선</li>
+                  <li>데이터 호출을 병렬 처리</li>
+                  <li>평균 마지막 데이터 호출 대기 시간은 0.5s감소</li>
+                  <li>FCP 최대 1.5s 감소</li>
+                  <li>Suspense이용한 Fallback Skeleton 처리</li>
+                  <li>영역별 Skeleton처리로 CLS를 0.2에서 0.001로 감소</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience__desc">
+              <h4 class="title">웹(웹뷰) 마이그레이션</h4>
+              <div class="description">
+                <p class="summary">
+                  Vue -> React로 마이그레이션
+                </p>
+                <ul>
+                  <li>이전 Vue로 만들어지는 화면들을 React로 마이그레이션</li>
+                  <li>불필요한 로직들 개선 및 UI 변경</li>
+                  <li>
+                    클라이언트 상태 관리 형태를 React-Query로 서버 상태 관리로 개선
+                  </li>
+                  <li>Recoil로 클라이언트 상태 관리</li>
+                  <li>이전하는 화면들의 비즈니스 로직 등 히스토리를 파악 후 정리</li>
+                  <li>다른 서비스에 사이드이펙이 가지 않도록 대응</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience__desc">
               <h4 class="title">버티컬 카테고리 확장</h4>
               <div class="description">
                 <p class="summary">
@@ -119,14 +155,17 @@
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">통계 이벤트 로거</h4>
+              <h4 class="title">주문 어드민 리뉴얼</h4>
               <div class="description">
                 <p class="summary">
-                  웹뷰에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게 개선
+                  레거시 주문 어드민 및 리뉴얼
                 </p>
                 <ul>
-                  <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
-                  <li>이벤트 타입별 추상 클래스로 처리</li>
+                  <li>레거시 주문 어드민 이전 및 리뉴얼</li>
+                  <li>해외 서비스 주문 대응</li>
+                  <li>모노레포 환경 셋업</li>
+                  <li>공통 디자인시스템 패키지 분리</li>
+                  <li>Zero install + PnP 환경</li>
                 </ul>
               </div>
             </div>
@@ -168,17 +207,14 @@
             </div>
 
             <div class="experience__desc">
-              <h4 class="title">실험 플랫폼</h4>
+              <h4 class="title">통계 이벤트 로거</h4>
               <div class="description">
                 <p class="summary">
-                  분산되어 관리가 제대로 되지 않는 실험 관련된 이벤트, 파라미터등을 운영어드민 한
-                  곳에서 관리
+                  웹뷰에서 반복적으로 선언해서 사용하는 이벤트 로깅을 유연하고 확장 가능하게 개선
                 </p>
                 <ul>
-                  <li>
-                    웹뷰/앱에서 사용되는 앰플리튜드, 파이어베이스, 브레이즈 등의 통계 이벤트를
-                    관리할 수 있는 화면/기능 개발
-                  </li>
+                  <li>여러 이벤트를 한번에 처리할 수 있도록 각 타입에 맞게 추상화</li>
+                  <li>이벤트 타입별 추상 클래스로 처리</li>
                 </ul>
               </div>
             </div>
